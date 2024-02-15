@@ -25,10 +25,26 @@ html{
     --color-bg-clearchannel: #ffd830;
     --color-text-buisness: #61082b;
 }
+header{
+    background-color: var(--color-background-image);
+}
+nav{
+    background-color: var(--color-background);
+}
 
 .debug{
     border: solid 1px red;
 }
 .debug-1{
     border: 1px solid black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.padding{
+    padding: 30px;
+}
+#agency{
+    width: 100%;
 }
