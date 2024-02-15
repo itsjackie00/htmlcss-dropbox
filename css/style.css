@@ -60,6 +60,7 @@ h1{
     font-size: 4em;
     word-spacing: 5px;  
 }
+
 p{
     padding-top: 30px;
 }
@@ -99,6 +100,13 @@ p{
     
 }
 
+/* Input utility */
+
+
+
+
+
+
 .free{
     margin-top: 30px;
 }
@@ -132,7 +140,7 @@ p{
     margin: 0 auto;
 }
 .small-container{
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
