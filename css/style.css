@@ -37,9 +37,14 @@ a{
     --color-bg-clearchannel: #ffd830;
     --color-text-buisness: #61082b;
 }
-nav ul li a{
+
+/* utility */
+nav a, .btn{
     padding-left: 20px;
+    padding-right: 10px;
     color: var(--color-background-footer);
+    text-align: center;
+    
 }
 
 nav{
@@ -48,10 +53,32 @@ nav{
 #hero{
     background-color: var(--color-background-image);
 }
+
+h1{
+    font-size: 3em;
+    margin: 30px 200px;
+    word-spacing: 5px;
+}
+
+
+
+
+
+
+
+
 #agency{
     width: 100%;
 }
 
+.btn{
+    background-color: #0161FF;
+    color: var(--color-background);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
 
 
