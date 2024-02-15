@@ -9,6 +9,18 @@ html{
 }
 
 /* General */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    margin: 10px 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 :root {
     --color-background: #ffffff;
     --color-background-image: #b4d0e7;
@@ -25,12 +37,25 @@ html{
     --color-bg-clearchannel: #ffd830;
     --color-text-buisness: #61082b;
 }
-header{
-    background-color: var(--color-background-image);
+nav ul li a{
+    padding-left: 20px;
+    color: var(--color-background-footer);
 }
+
 nav{
     background-color: var(--color-background);
 }
+#hero{
+    background-color: var(--color-background-image);
+}
+#agency{
+    width: 100%;
+}
+
+
+
+
+
 
 .debug{
     border: solid 1px red;
@@ -45,6 +70,18 @@ nav{
 .padding{
     padding: 30px;
 }
-#agency{
-    width: 100%;
+
+
+/* flex utility */
+.d-flex{
+    display: flex;
+}
+.j-content-between{
+    justify-content: space-between;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-start{
+    justify-content: flex-start;
 }
