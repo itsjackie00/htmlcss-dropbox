@@ -25,3 +25,10 @@ html{
     --color-bg-clearchannel: #ffd830;
     --color-text-buisness: #61082b;
 }
+
+.debug{
+    border: solid 1px red;
+}
+.debug-1{
+    border: 1px solid black;
+}
