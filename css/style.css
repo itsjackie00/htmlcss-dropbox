@@ -184,6 +184,23 @@ section div img{
 .right-text{
     width: 30%;
 }
+/* Business */
+.card{
+    width: calc(100% / 3 - 20px);
+    cursor: pointer;
+}
+.card-img{
+    /* position: relative; */
+}
+.card img{
+    width: 100%;
+}
+.image{
+   /*  display: block; */
+}
+.gap{
+    gap: 20px;
+}
 
 /* Input utility */
 input[type="radio"]{
