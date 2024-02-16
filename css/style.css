@@ -162,8 +162,28 @@ li{
     text-decoration: none;
     display: inline-block;
 }
+.white{
+    background-color: var(--color-background);
+    color: var(--color-background-footer);
+    border: 1px solid var(--color-background-footer);
+}
 
-
+/* Parter */
+#partners h4, small{
+    font-size: 20px;
+}
+#partners .btn{
+    margin-top: 50px;
+}
+section div img{
+    width: 100%;
+}
+.left-img{
+    width: 60%;
+}
+.right-text{
+    width: 30%;
+}
 
 /* Input utility */
 input[type="radio"]{
