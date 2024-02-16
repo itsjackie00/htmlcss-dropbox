@@ -129,6 +129,9 @@ li{
 .border-box-top{
     border-bottom: 1px solid rgba(0, 0, 0, 0.251);
 }
+.fa-check{
+    color: #0161FF ;
+}
 
 
 
@@ -224,4 +227,8 @@ input[type="radio"]{
 .align-center{
     align-items: center;
     align-content: center;
+}
+.stretch{
+    align-self: stretch;
+    height: 90vh;
 }
