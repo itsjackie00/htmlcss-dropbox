@@ -95,12 +95,13 @@ li{
     padding: 10px 3px;
     font-size: 12px;
 }
+
 /* Padding */
 .p-left-20{
     padding-left: 20px;
 }
-.p-btm-10{
-    padding-bottom: 10px;
+.p-btm-20{
+    padding-bottom: 20px;
 }
 .p-btm-30{
     padding-bottom: 30px;
@@ -231,4 +232,7 @@ input[type="radio"]{
 .stretch{
     align-self: stretch;
     height: 90vh;
+}
+.f-wrap{
+    flex-wrap: wrap;
 }
