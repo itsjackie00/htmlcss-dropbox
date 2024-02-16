@@ -39,7 +39,7 @@ a{
     --color-text-buisness: #61082b;
 }
 
-/* utility */
+/* navigation */
 nav a, .btn{
     padding-left: 40px;
     padding-right: 30px;
@@ -47,7 +47,6 @@ nav a, .btn{
     text-align: center;
     
 }
-
 nav{
     background-color: var(--color-background);
 }
@@ -58,25 +57,16 @@ nav{
     margin-bottom: 60px;
     z-index: 3000;
 }
-
 h1{
     font-size: 4em;
     word-spacing: 5px; 
     padding-top:40px ; 
 }
-h2{
-    padding-bottom: 35px;
-}
-p{
-    padding-top: 30px;
-}
-
 .image-hero{
     width: 100%;
     position: relative;
     left: 0px;
     top: 35px;
-
 }
 
 .left{
@@ -88,16 +78,49 @@ p{
 #img1{
     width: 100%;
 }
-input{
+
+
+
+/* main */
+h2{
+    padding-bottom: 35px;
+}
+p{
+    padding-top: 30px;
+}
+li{
+    list-style: none;
+}
+.selection{
+    padding: 10px 3px;
+    font-size: 12px;
+}
+.fa-user{
     
 }
-input[type="radio"]{
-    margin: 0px 10px 0px 0px;
-  }
 
-  input[type="radio"]#anno{
-    margin: 0px 10px 0px 50px;
-  }
+
+/* column */
+.column{
+    padding-top:40px ;
+    
+}
+.selection{
+    
+}
+.c-left{
+    width: 30%;
+}
+.c-center{
+    width: 30%;
+}
+.c-right{
+    width: 30%;
+}
+.grey{
+    color: grey;
+}
+
 
 #agency{
     width: 100%;
@@ -111,11 +134,18 @@ input[type="radio"]{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    
 }
 
-/* Input utility */
 
+
+/* Input utility */
+input[type="radio"]{
+    margin: 0px 10px 0px 0px;
+  }
+
+  input[type="radio"]#anno{
+    margin: 0px 10px 0px 50px;
+  }
 
 
 
