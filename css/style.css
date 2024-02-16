@@ -11,6 +11,7 @@ html{
 /* General */
 body{
     font-family: "Open Sans", sans-serif;
+    min-width: 1200px;
 }
 header{
     margin: 10px 10px;
