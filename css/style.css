@@ -186,7 +186,7 @@ section div img{
 }
 /* Business */
 .card{
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 50px);
     cursor: pointer;
 }
 .card-img{
@@ -199,8 +199,9 @@ section div img{
    /*  display: block; */
 }
 .gap{
-    gap: 20px;
+    gap: 50px;
 }
+
 
 /* Input utility */
 input[type="radio"]{
