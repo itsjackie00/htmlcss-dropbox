@@ -78,12 +78,20 @@ h1{
 #img1{
     width: 100%;
 }
-
-
+.btm-left{
+    width: 60%;
+    padding-bottom: 30px;
+}
+.btm-right{
+    width: 40%;
+}
 
 /* main */
 h2{
     padding-bottom: 35px;
+}
+h4{
+    padding-bottom: 20px;
 }
 p{
     padding-top: 30px;
@@ -130,8 +138,16 @@ li{
 .fa-check{
     color: #0161FF ;
 }
-
-
+.btm-bottom{
+    margin-top: 70px;
+}
+.team{
+    text-align: center;
+}
+.contat{
+    margin-top: 0;
+    margin-left: 175px;
+}
 
 #agency{
     width: 100%;
@@ -195,7 +211,7 @@ input[type="radio"]{
     margin: 0 auto;
 }
 .small-container{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -218,6 +234,9 @@ input[type="radio"]{
 }
 .f-start{
     justify-content: flex-start;
+}
+.j-end{
+    justify-content: flex-end;
 }
 .j-center{
     justify-content: center;
