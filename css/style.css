@@ -55,6 +55,8 @@ nav{
     background-color: var(--color-background-image);
     height: 65%;
     padding-top: 30px;
+    margin-bottom: 60px;
+    z-index: 3000;
 }
 
 h1{
@@ -94,7 +96,7 @@ p{
 .btn{
     background-color: #0161FF;
     color: var(--color-background);
-    padding: 5px 10px;
+    padding: 6px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -167,4 +169,8 @@ p{
 }
 .j-center{
     justify-content: center;
+}
+.align-center{
+    align-items: center;
+    align-content: center;
 }
