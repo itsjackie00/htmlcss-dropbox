@@ -57,6 +57,8 @@ nav a, .btn{
 }
 nav{
     background-color: var(--color-background);
+    width: 100vw;
+    height: 7vh;
 }
 #hero{
     background-color: var(--color-background-image);
@@ -76,15 +78,14 @@ h1{
     left: 0px;
     top: 35px;
 }
+.arrow
 
 .items {
     display: flex;
     margin: 5px;
     margin-bottom: 20px;
 }
-.list{
-    margin-bottom: 50px;
-}
+
 .left{
     width: 40%;
 }
@@ -137,20 +138,44 @@ li{
 /* column */
 
 .column{
-    padding-top:40px ;  
+    margin-top:40px ;  
     gap: 30px; 
+    height: 90vh;
+}
+
+.buy-link {
+    margin: 30px 0;
 }
 
 .grey{
     color: grey;
     padding-top: 20px;
 }
+.hr-clmn{
+    width: 50px;
+    margin-left:30px ;
+    color: grey;
+}
 .border-box{
     border: 1px solid rgba(0, 0, 0, 0.251);
 }
 .border-box-top{
+    border-top: 1px solid rgba(0, 0, 0, 0.251);
+}
+
+.border-box-bottom {
     border-bottom: 1px solid rgba(0, 0, 0, 0.251);
 }
+.clmn-content-1 {
+    height: 55%;
+    padding: 20px;
+}
+
+.clmn-content-2 {
+    height: 30%;
+    padding: 20px;
+}
+
 .fa-check{
     color: #0161FF ;
 }
@@ -176,7 +201,7 @@ li{
     padding: 6px 12px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .white{
     background-color: var(--color-background);
@@ -184,6 +209,9 @@ li{
     border: 1px solid var(--color-background-footer);
 }
 
+.a-color {
+    color: white;
+}
 /* Parter */
 #partners h4, small{
     font-size: 20px;
@@ -218,6 +246,61 @@ section div img{
     gap: 50px;
 }
 
+.agency-container{
+    width: 100vw;
+}
+
+.box-container{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+.quadrato{
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.agency-logo1{
+    width: 45%;
+    height: auto;
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(260deg) brightness(105%) contrast(101%);
+}
+.agency-logo2{
+    width: 60%;
+    height: auto;
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(260deg) brightness(105%) contrast(101%);
+}
+.agency-logo3{
+    width: 45%;
+    height: 10%;
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(260deg) brightness(105%) contrast(101%);
+}
+.agency-logo4{
+    width: 45%;
+    height: auto;
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(260deg) brightness(105%) contrast(101%);
+}
+.agency-footer{
+    width: 100vw;
+    height: calc(100vw / 6);
+    background-color: #B3D0E7;
+}
+/* quadrato colori */
+.green{
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+.burg{
+    background-color: var(--color-bg-asu);
+}
+.sky-blue{
+    background-color: var(--color-bg-uniflorida);
+}
+.red{
+    background-color: var(--color-bg-topps);
+}
+
+
 
 /* Input utility */
 input[type="radio"]{
@@ -238,9 +321,10 @@ input[type="radio"]{
 
 #arrow-down { 
     color: var(--color-background-footer); 
-    padding-top: 40px; 
+    padding-top: 120px; 
     border-radius: 50%; 
     font-size: 50px; 
+
   }
 
 
@@ -286,7 +370,7 @@ input[type="radio"]{
 .f-wrap{
     flex-wrap: wrap;
 }
-.f-start{
+.f-start{ 
     justify-content: flex-start;
 }
 .j-end{
@@ -301,7 +385,7 @@ input[type="radio"]{
 }
 .stretch{
     align-self: stretch;
-    height: 90vh;
+    
 }
 .f-wrap{
     flex-wrap: wrap;
