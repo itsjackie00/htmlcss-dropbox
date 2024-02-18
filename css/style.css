@@ -14,14 +14,22 @@ body{
     min-width: 1200px;
 }
 header{
-    margin: 20px 15px;
+    position: fixed;
+    z-index: 3000;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
 }
+
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
+
+
 :root {
     --color-background: #ffffff;
     --color-background-image: #b4d0e7;
@@ -69,6 +77,14 @@ h1{
     top: 35px;
 }
 
+.items {
+    display: flex;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.list{
+    margin-bottom: 50px;
+}
 .left{
     width: 40%;
 }
@@ -94,7 +110,7 @@ h4{
     padding-bottom: 20px;
 }
 p{
-    padding-top: 30px;
+    padding-left: 5px;
 }
 li{
     list-style: none;
