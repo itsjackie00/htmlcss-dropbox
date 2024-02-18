@@ -337,12 +337,39 @@ section div img{
     border: none;
 }
 
-
 .agency-footer{
     width: 100vw;
     height: calc(100vw / 6);
     background-color: #B3D0E7;
 }
+
+/* Faq */
+#faq h2{
+    font-size: 2em;
+}
+#faq p{
+    padding-left: 0 ;
+    padding-right: 350px;
+    padding-top: 30px;
+}
+.fa-angle-down{
+    padding-top: 30px;
+}
+#btm-text-faq{
+    padding-bottom: 30px;
+}
+.border-box-top-faq{
+    border-top: 1px solid rgba(128, 128, 128, 0.496);
+    
+}
+.btm{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.496); 
+}
+
+
+
+
+
 
 /* quadrato colori */
 .green{
