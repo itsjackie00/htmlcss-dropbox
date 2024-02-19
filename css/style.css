@@ -31,6 +31,9 @@ ul {
 a {
     text-decoration: none;
 }
+footer a:hover{
+    text-decoration: underline;
+}
 
 :root {
     --color-background: #ffffff;
@@ -56,26 +59,21 @@ h1 {
     padding-top: 40px;
 }
 
-nav a,
-.btn {
+nav a{
     padding-left: 40px;
     padding-right: 30px;
     color: var(--color-background-footer);
     text-align: center;
-
 }
 
 nav {
     background-color: var(--color-background);
-    width: 100vw;
+    width: 100%;
     height: 7vh;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #hero {
     background-color: var(--color-background-image);
-    height: 80vh;
     padding-top: 30px;
     margin-bottom: 60px;
     z-index: 3000;
@@ -178,8 +176,13 @@ li {
 
 .border-box {
     border: 1px solid rgba(0, 0, 0, 0.251);
+    width: calc(100% / 3);
+    margin-top: 30px;
 }
-
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.251);
+ 
+}
 .border-box-top {
     border-top: 1px solid rgba(0, 0, 0, 0.251);
 }
@@ -226,6 +229,10 @@ li {
     padding: 6px 12px;
     text-align: center;
     text-decoration: none;
+}
+.btn:hover{
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.401);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.389), 0 0 25px blue, 0 0 5px rgba(255, 255, 255, 0.343);
 }
 
 .white {
@@ -306,17 +313,10 @@ section div img {
 }
 
 /* Agency */
-.agency-container {
-    width: 100vw;
-}
 
-.box-container {
-    width: calc(100vw / 3);
-    height: calc(100vw / 3);
-}
 
 .quadrato {
-    height: 50%;
+    aspect-ratio: 1/1;
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -384,7 +384,6 @@ section div img {
 }
 
 .agency-footer {
-    width: 100vw;
     height: calc(100vw / 6);
     background-color: #B3D0E7;
 }
@@ -496,6 +495,7 @@ input[type="radio"]#anno {
     padding-top: 110px;
     border-radius: 50%;
     font-size: 50px;
+    scroll-behavior: auto;
 }
 
 .debug {
@@ -522,6 +522,9 @@ input[type="radio"]#anno {
 }
 
 /* Footer */
+footer h4, footer li{
+    padding-bottom: 20px;
+}
 footer {
     background-color: var(--color-background-footer);
     color: var(--color-background);
